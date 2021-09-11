@@ -1,15 +1,16 @@
-package ooppendulum;
+package oopdoublependulum;
 
 import javax.swing.*;
 
 public class GameFrame extends JFrame {
     public GameFrame() {
         this.add(new GamePanel());
-        this.setTitle("OOP Pendulum");
-        this.setIconImage(new ImageIcon("iconSingle.png").getImage());
+        this.setTitle("OOP Double Pendulum");
+        this.setIconImage(new ImageIcon("iconDouble.png").getImage());
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.pack();
         this.setVisible(true);
         this.setLocationRelativeTo(null);
+
     }
 }
